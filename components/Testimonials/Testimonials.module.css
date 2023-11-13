@@ -1,0 +1,88 @@
+.container_contents {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  padding-top: 8%;
+  padding-bottom: 15%;
+}
+
+.text {
+  margin-bottom: 50px;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.cardContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 15%;
+  padding-left: 15%;
+  gap: 10px;
+}
+
+.card {
+  display: flex;
+  background-color: #c5e1f5a4;
+  padding: 20px 40px;
+  margin: 10px;
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  gap: 50px;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  width: 420px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.rate_review {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 15px;
+  gap: 8px;
+}
+
+.name {
+  margin: 0;
+}
+
+.review {
+  margin-top: 5px;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 40%;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 650px) {
+  .cardContainer {
+    flex-direction: column;
+  }
+  .title {
+    font-size: 1.4rem;
+  }
+  .card {
+    width: 280px;
+  }
+}
