@@ -1,6 +1,6 @@
 import styles from "./Intro.module.css";
 import Image from "next/image";
-import phone from "../../public/phone_hand.png";
+import phone from "../../public/pictok.png";
 import background from "../../public/background.png";
 
 export default function Intro() {
@@ -25,7 +25,7 @@ export default function Intro() {
           </a>
         </div>
         <div className={styles.phoneImage}>
-          <Image src={phone} width={450} />
+          <Image src={phone} width={560} />
         </div>
       </div>
     </>
